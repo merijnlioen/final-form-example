@@ -1,0 +1,55 @@
+.page {
+    background: #eee;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.login-form {
+    padding: 100px;
+    height: auto;
+}
+
+.text-field {
+    margin-bottom: 10px;;
+    &__label {
+        font-family: Calibri, Candara, Arial, sans-serif;
+        display: block;
+        padding: 5px 0;
+    }
+    &__input {
+        background: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        display: block;
+        width: 100%;
+        &--error {
+            border-color: rgb(245, 76, 76);
+        }
+    }
+    &__error {
+        font-family: Calibri, Candara, Arial, sans-serif;
+        color: rgb(245, 76, 76);
+        font-size: 12px;
+    }
+}
+
+.notification {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(245, 76, 76);
+    margin-bottom: 20px;
+    &__text {
+        font-family: Calibri, Candara, Arial, sans-serif;
+        color: white;
+        font-size: 14px;
+    }
+}
+
+.button {
+    padding: 10px 20px;
+    background: #3FB618;
+    font-family: Calibri, Candara, Arial, sans-serif;
+    color: white;
+    border: none;
+    font-size: 14px;
+}

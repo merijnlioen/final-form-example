@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import LoginPage from './components/pages/login'
 import './assets/sass/app.scss'
 
 ReactDOM.render(
-    <h1>Hello world</h1>, 
+    <LoginPage />, 
     document.getElementById('root')
 )
